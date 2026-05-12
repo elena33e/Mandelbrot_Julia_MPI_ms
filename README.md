@@ -9,7 +9,7 @@ Această aplicație realizează generarea în paralel a fractalilor din mulțimi
 * **Fractali generați:** Mulțimea Mandelbrot și 3 variante de seturi Julia (folosind seed-uri diferite).
 * **Format Ieșire:** Imagini brute în format `.ppm` (Portable Pixmap).
 
-## 🛠️ Logica de funcționare
+## Logica de funcționare
 
 Programul utilizează trei etichete (**Tags**) pentru a controla fluxul de date:
 1.  **TAG_TASK:** Trimis de Master către Worker pentru a indica indicele rândului ce trebuie procesat.
@@ -30,7 +30,7 @@ Programul utilizează trei etichete (**Tags**) pentru a controla fluxul de date:
 Dacă folosești terminalul (ex: Linux sau MS-MPI Command Prompt):
 ```bash
 mpicxx -o fractal_generator main.cpp
-
+```bash
 ### Execuție
 Pentru a rula programul cu 8 procese (1 Master + 7 Workers):
 
