@@ -30,7 +30,7 @@ Programul utilizează trei etichete (**Tags**) pentru a controla fluxul de date:
 Dacă folosești terminalul (ex: Linux sau MS-MPI Command Prompt):
 ```bash
 mpicxx -o fractal_generator main.cpp
-```bash
+
 ### Execuție
 Pentru a rula programul cu 8 procese (1 Master + 7 Workers):
 
